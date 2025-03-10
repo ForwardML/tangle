@@ -44,7 +44,7 @@ class HackRFSweep:
                 "core:author": "FORWARD.ML LLC",
                 "core:datafile": data_filename,
                 "core:meta_time": batch_timestamp,
-                "core:sample_rate": 20000 * 1e6, # 20,000 MHz
+                "core:sample_rate": 20 * 1e6, # 20 MHz
                 "core:bin_width": self.bin_width,
                 "core:frequency_min": self.freq_min * 1e6,  # Convert MHz to Hz
                 "core:frequency_max": self.freq_max * 1e6,
