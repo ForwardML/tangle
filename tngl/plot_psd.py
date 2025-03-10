@@ -4,7 +4,7 @@ from pylab import *     # for plotting
 hackrf = HackRF()
 
 # Adjust LNA and VGA gain settings
-hackrf.set_lna_gain(18) # Start with a moderate gain
+hackrf.set_lna_gain(1i8) # Start with a moderate gain
 hackrf.set_vga_gain(18) # Adjust based on the outcomes
 
 hackrf.sample_rate = 20e6
